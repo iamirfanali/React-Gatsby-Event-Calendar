@@ -51,13 +51,14 @@ const Calendar = () => {
   }
 
   const days = () => {
-    const dateFormat = "ddd"
+    const dateFormat = "eee"
     const days = []
     let startDate = startOfWeek(currentDate)
     for (let i = 0; i < 7; i++) {
       days.push(
         <div className="col text-center" key={i}>
           {format(addDays(startDate, i), dateFormat)}
+          {console.log(addDays(startDate, i))}
         </div>
       )
     }
