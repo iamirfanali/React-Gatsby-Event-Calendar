@@ -1,9 +1,10 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
-import Header from "./header"
 import "bootstrap/dist/css/bootstrap.min.css"
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "font-awesome/css/font-awesome.css"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -19,7 +20,6 @@ const Layout = ({ children }) => {
 
   return (
     <React.Fragment>
-      <Header siteTitle={data.site.siteMetadata.title} />
       <main>{children}</main>
     </React.Fragment>
   )
