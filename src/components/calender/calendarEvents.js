@@ -20,8 +20,19 @@ const CalendarEvents = [
     endtime: "17:00",
   },
   {
-    start_date: "2020-01-04",
-    start_time: "12:00"
+    start_date: "2020-02-04",
+    start_time: "12:00",
+    endtime: "17:00",
+  },
+  {
+    start_date: "2020-02-14",
+    start_time: "12:00",
+    endtime: "17:00",
+  },
+  {
+    start_date: "2020-02-20",
+    start_time: "12:00",
+    endtime: "17:00",
   }
 ]
 
