@@ -1,7 +1,7 @@
 {
   "name": "react-gatsby-event-calendar",
   "private": true,
-  "description": "Gatsby Event Calendar with React Hooks",
+  "description": "React/Gatsby Event Calendar with React Hooks",
   "version": "0.1.0",
   "author": "Irfan Ali <irfanaliamanat@gmail.com>",
   "dependencies": {
